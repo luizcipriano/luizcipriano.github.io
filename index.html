@@ -1,36 +1,103 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Luiz Cipriano</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Luiz Cipriano Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="/css/grid.css">
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <a href="index.html" class="grid-3 logo"><img src="/img/logo.svg" alt="Logo do site"></a>
-           <nav class="header_menu grid-11">
-               <ul>
-                   <li><a href="sobre.html">Sobre</a></li>
-                   <li><a href="skills.html">Skills</a></li>
-                   <li><a href="projetos.html">Projetos</a></li>
-                   <li><a href="contato.html">Contato</a></li>
-               </ul> 
-           </nav>
-        </div>   
-       </header>
+    <header class="header-bg">
+        <div class="menu-pad">
+            <div class="menu">
+                <div class="menu-logo">
+                    <a href="#">Luiz Cipriano Dev</a>
+                </div>
+                <nav class="menu-nav">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="https://github.com/luizcipriano" target="_blank">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            
+            </div>
+        </div>
+    </header>
+
+    <section class="sobre-mim">
+        
+        <div class="sobre-mimtodo">
+            <div class="intro">
+                <h1>Front-end Web Developer</h1>
+                <h2>Luiz Antonio Cipriano</h2>
+                <p>Olá eu sou o Luiz ou luizin para os proximos,<br>esse site é um projeto/portifolio para que eu possa<br>me divulgar e testar meus conhecimentos de novas<br>funcionalidades que estou aprendendo diariamente.</p>
+                <a href="#">Baixe o Curriculo</a>
+            </div>
+            <div class="desk-img">
+                <img src="img/test.png" alt="Homem sentado em uma mesa mexendo no computador">
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="sobre-me">
+            <div class="img-me">
+                <img src="img/eu.png" alt="Foto do luiz Cipriano">
+            </div>
+            <div class="sobre-info">
+                <h1>Sobre</h1>
+                <p>Sou estudante na área da Tecnologia da Informação,
+                    no Centro Universitário IBMR, localizado no bairro da
+                    Barra da Tijuca, Rio de Janeiro.
+                    
+                    Costumo estar engajado em Projetos criativos e
+                    inovadores que me incentivem a pensar fora da caixa.
+                    Estou sempre em busca de experiencias que possam
+                    me proporcionar novos desafios, afim de me
+                    aprimorar cada vez mais como profissional. Por ser
+                    muito observador procuro estar antenado nas
+                    novidades da área de TI, visando sempre usar os
+                    novos conhecimentos ao meu favor.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div>
+            <h1>Skills</h1>
+        </div>
+        <div>
+            <ul>
+                <li><img src="img/icons8-javascript-480.png" alt="Logo JavaScript"></li>
+                <li><img src="img/icons8-html-5-480.png" alt="Logo HTML"></li>
+                <li><img src="img/icons8-css3-480.png" alt="Logo CSS"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div>
+            <h1>Contato</h1>
+            <p>Sinta-se a vontade para entrar em contato, responderei o mais rapido possivel</p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="https://github.com/luizcipriano"><span><img src="img/icons8-github.svg" alt="logo github"></span> github.com/luizcipriano</a></li>
+                <li><a href="tel:+5521973648787"><span><img src="img/icons8-whatsapp.svg" alt="Logo whats app"></span>+55 21 97364-8787</a></li>
+                <li><a href="luizciprianolb@gmail.com"><span><img src="img/o-email.svg" alt="logo e-mail"></span>luizciprianolb@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/dev-luiz-cipriano/"><span><img src="img/icons8-linkedin.svg" alt="logo linkedin"></span>/in/dev-luiz-cipriano</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© Todos os direitos reservados a Luiz Antônio de Araújo Cipriano</p>
+    </footer>
     
-
-   </header>
-
-   <h1>Teste</h1>
-
 </body>
 </html>
