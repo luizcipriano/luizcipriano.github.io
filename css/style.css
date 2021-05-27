@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, a {
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    background: #3901A8;
+    background-image: url(/img/LC\ \(2\).png);
 }
 
 ul {
@@ -31,6 +31,7 @@ img {
 .header-bg {
     background: #3901A8;
     height: 150px;
+    border-bottom: 3px solid #A89E00;
 }
 
 .menu-pad{
@@ -49,10 +50,17 @@ img {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid #3901A8;
+    border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -6px -6px 0px #A89E00;
+    box-shadow: -1px -1px 0px #A89E00;
 }
+
+.menu:hover{
+    color: #F5E702;
+    border: 1px solid #F5E702;
+    box-shadow: none;
+}
+
 
 .menu a {
     text-decoration: none;
@@ -70,7 +78,7 @@ img {
 }
 
 .menu-nav a{
-    border: 2px solid #3901A8;
+    border: 3px solid transparent;
     border-radius: 38px;
     box-shadow: -1px -1px 0px #A89E00;
     padding: 5px;
@@ -78,7 +86,7 @@ img {
 
 .menu-nav a:hover {
     color: #F5E702;
-    border: 2px solid #F5E702;
+    border: 3px solid #F5E702;
     box-shadow: none;
 }
 
@@ -89,9 +97,14 @@ img {
     display: flex;
     margin: 100px auto;
     padding: 20px 0px;
-    border: 1px solid #3901A8;
+    border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -6px -6px 0px #A89E00;
+    box-shadow: -1px -1px 0px #A89E00;
+}
+
+.sobre-mimtodo:hover{
+    border: 1px solid #F5E702;
+    box-shadow: none;
 }
 
 .intro {
@@ -121,9 +134,9 @@ img {
     text-decoration: none;
     color: #F5E702;
     align-self: center;
-    border: 3px solid #3901A8;
+    border: 3px solid transparent;
     border-radius: 38px;
-    box-shadow: -2px -2px 0px #A89E00;
+    box-shadow: -3px -3px 0px #A89E00;
     padding: 20px;
     text-transform: uppercase;
 }
@@ -135,10 +148,7 @@ img {
 
 /* Sobre */
 .sobre {
-    background-image: url(/img/LC\ \(2\).png);
-    width: 1400px;
-    height: 1000px;
-    max-width: 100%;
+  
 }
 
 .sobre-me {
@@ -150,20 +160,27 @@ img {
 }
 
 .sobre-info{
-    border: 3px solid #3901A8;
+    border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -2px -2px 0px #A89E00;
+    box-shadow: -1px -1px 0px #A89E00;
     padding: 10px;
+}
+
+.sobre-info:hover{
+    border: 1px solid #F5E702;
+    box-shadow: none;
 }
 
 .sobre-info p {
     max-width: 300px;
+    margin: 10px;
 }
 
 .sobre-info h1 {
     color: #F5E702;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin: 10px 0px 10px 10px;
+
 }
 
 .img-me {
@@ -201,9 +218,13 @@ img {
     flex-wrap: wrap;
     border: 3px solid transparent;
     border-radius: 38px;
-    box-shadow: -2px -2px 0px #A89E00;
+    box-shadow: -3px -3px 0px #A89E00;
     margin-top: 30px;
+}
 
+.skills-me ul:hover {
+    border: 3px solid #F5E702;
+    box-shadow: none;
 }
 
 .skills-me li {
@@ -211,46 +232,85 @@ img {
 }
 
 /* Contato */
-
-.contato-me {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column
-}
-.contato-me h1 {
-    text-align: center;
-    color: #F5E702;
-    text-transform: uppercase;
-}
-.contato-me p{
-    text-align: center;
-}
-
-.container-contato {
+.contato{
+    max-width: 580px;
     margin: 60px auto;
     display: flex;
     flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 
-.container-contato ul {
-    margin: 50px;
-    color: black;
+.contato h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5E702;
 }
 
-.container-contato li {
-    margin: 5px;
-    padding: 5px;
-    border: 3px solid transparent;
+.divflex{
+    border: 2px solid transparent;
     border-radius: 38px;
     box-shadow: -2px -2px 0px #A89E00;
-    margin-top: 30px;
+    margin: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.divflex:hover{
+    border: 2px solid #F5E702;
+    box-shadow: none;
+    
+}
+
+.divflex span img{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 38px;
+}
+
+.git:hover{
+    border-radius: 38px;
+    background: #AFB5BB;
+}
+
+.cel:hover{
+    border-radius: 38px;
+    background: #25D366;
+}
+
+.email:hover{
+    border-radius: 38px;
+    background: #c71610;
+}
+
+.link:hover{
+    border-radius: 38px;
+    background: #2867B2;
+}
+
+.divflex a {
+   display: flex;
+   align-items: center;
+   text-transform: none;
+   color: #A89E00;
+}
+
+.divflex a:hover{
+    color: #F5E702;
+}
+.quebra {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5E702;
+    margin-top: 60px;
 }
 
 /* Footer */
 
 .footer {
-    display: flex;
-    flex-wrap: wrap;
+   text-align: center;
+   margin-bottom: 20px;
 }
