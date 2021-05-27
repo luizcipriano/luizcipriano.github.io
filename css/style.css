@@ -6,7 +6,7 @@ body, h1, h2, p, ul, li, a {
 body {
     font-family: 'Nunito', Arial, Helvetica, sans-serif;
     color: rgb(223, 223, 223);
-    background-image: url(/img/LC\ \(2\).png);
+    background-image: url(/img/LC\ \(2\).png)
 }
 
 ul {
@@ -29,7 +29,7 @@ img {
 /* Header */
 
 .header-bg {
-    background: #3901A8;
+    background: #1F005D;
     height: 150px;
     border-bottom: 3px solid #A89E00;
 }
@@ -56,8 +56,8 @@ img {
 }
 
 .menu:hover{
-    color: #F5E702;
-    border: 1px solid #F5E702;
+    color: #A89E00;
+    border: 1px solid #A89E00;
     box-shadow: none;
 }
 
@@ -85,8 +85,8 @@ img {
 }
 
 .menu-nav a:hover {
-    color: #F5E702;
-    border: 3px solid #F5E702;
+    color: #A89E00;
+    border: 3px solid #A89E00;
     box-shadow: none;
 }
 
@@ -103,7 +103,7 @@ img {
 }
 
 .sobre-mimtodo:hover{
-    border: 1px solid #F5E702;
+    border: 1px solid #A89E00;
     box-shadow: none;
 }
 
@@ -116,11 +116,11 @@ img {
 }
 
 .intro h1 {
-    color: #F5E702;
+    color: #A89E00;
     text-transform: uppercase;
 }
 .intro h2 {
-    color: #A89E00;
+    color: #5C5600;
 }
 .intro p {
    font-style: italic;
@@ -132,7 +132,7 @@ img {
 
 .intro a {
     text-decoration: none;
-    color: #F5E702;
+    color: #A89E00;
     align-self: center;
     border: 3px solid transparent;
     border-radius: 38px;
@@ -142,7 +142,7 @@ img {
 }
 
 .intro a:hover {
-    border: 3px solid #F5E702;
+    border: 3px solid #A89E00;
     box-shadow: none;
 }
 
@@ -167,7 +167,7 @@ img {
 }
 
 .sobre-info:hover{
-    border: 1px solid #F5E702;
+    border: 1px solid #A89E00;
     box-shadow: none;
 }
 
@@ -177,7 +177,7 @@ img {
 }
 
 .sobre-info h1 {
-    color: #F5E702;
+    color: #A89E00;
     text-transform: uppercase;
     margin: 10px 0px 10px 10px;
 
@@ -200,7 +200,7 @@ img {
 }
 
 .skills h1 {
-    color: #F5E702;
+    color: #A89E00;
     text-transform: uppercase;
 }
 
@@ -223,7 +223,7 @@ img {
 }
 
 .skills-me ul:hover {
-    border: 3px solid #F5E702;
+    border: 3px solid #A89E00;
     box-shadow: none;
 }
 
@@ -243,7 +243,7 @@ img {
 .contato h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #F5E702;
+    color: #A89E00;
 }
 
 .divflex{
@@ -257,7 +257,7 @@ img {
 }
 
 .divflex:hover{
-    border: 2px solid #F5E702;
+    border: 2px solid #A89E00;
     box-shadow: none;
     
 }
@@ -299,12 +299,12 @@ img {
 }
 
 .divflex a:hover{
-    color: #F5E702;
+    color: #A89E00;
 }
 .quebra {
     text-align: center;
     text-transform: uppercase;
-    color: #F5E702;
+    color: #A89E00;
     margin-top: 60px;
 }
 
