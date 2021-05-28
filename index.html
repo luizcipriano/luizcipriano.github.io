@@ -12,12 +12,13 @@
 <body>
     <header class="header-bg">
         <div class="menu-pad">
-            <div class="menu">
-                <div class="menu-logo">
-                    <a href="#">Luiz Cipriano Dev</a>
-                </div>
-                <nav class="menu-nav">
-                    <ul>
+            <div id="menu" class="menu">
+                    <a id="menu-logo" class="menu-logo" href="#">Luiz Cipriano Dev</a>
+                <nav id="nav" class="nav">
+                    <button class="btn-mobile" id="btn-mobile" aria-expanded="false" aria-controls="menu" aria-haspopup="true" aria-label="Abrir Menu">Menu
+                        <span id="hamburger"></span>
+                    </button>
+                    <ul id="menu-ul" class="menu-ul" role="menu">
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#skills">Skills</a></li>
                         <li><a href="https://github.com/luizcipriano" target="_blank">Projetos</a></li>
@@ -120,5 +121,7 @@
         <p>© Todos os direitos reservados a Luiz Antônio de Araújo Cipriano</p>
     </footer>
     
+    <script src="/javacript.js"></script>
+
 </body>
 </html>
