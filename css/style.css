@@ -163,12 +163,23 @@ img {
     .intro {
         gap: 10px;
     }
+    .sobre-mimtodo{
+        margin-left: 10px;
+    }
     .intro a{
         margin-top: 16px;
     }
     /* Sobre */
     .sobre-info{
         margin-top: 120px;
+        margin-left: 5px;
+    }
+    .img-me{
+        margin-left: 30px;
+    }
+    /* Skills */
+    .skills-me div {
+        margin-left: 5px;
     }
 }
 
