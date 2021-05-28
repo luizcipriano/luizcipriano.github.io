@@ -155,6 +155,21 @@ img {
         transform: rotate(-135deg);
         top: -7px;
     }
+
+    /* Intro */
+    .desk-img {
+        display: none;
+    }
+    .intro {
+        gap: 10px;
+    }
+    .intro a{
+        margin-top: 16px;
+    }
+    /* Sobre */
+    .sobre-info{
+        margin-top: 120px;
+    }
 }
 
 /* Sobre Mim */
@@ -195,6 +210,8 @@ img {
 
 .desk-img{
     margin-left: 95px;
+    min-width: 320px;
+    min-height: 320px;
 }
 
 .intro a {
