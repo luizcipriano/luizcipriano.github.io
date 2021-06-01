@@ -91,6 +91,11 @@ img {
     font-weight: bold;
 }
 
+.menu-logo img {
+   width: 200px ;
+   height: 70px ;
+}
+
 .btn-mobile {
     display: none;
 }
