@@ -186,6 +186,11 @@ img {
     .skills-me div {
         margin-left: 5px;
     }
+    /* Logo */
+    .menu-logo img {
+        width: auto ;
+        height: 35px ;
+     }
 }
 
 /* Sobre Mim */
