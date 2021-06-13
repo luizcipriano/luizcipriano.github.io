@@ -9,6 +9,10 @@ body {
     background-image: url(/img/LC\ \(2\).png)
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 ul {
     list-style: none;
 }
