@@ -66,14 +66,18 @@ img {
 .menu a {
     text-decoration: none;
     color: #A89E00;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     flex-wrap: wrap;
-    display: flex;
+    /* display: flex; */
+}
+
+.menu li + li{
+    margin-left: 30px;
 }
 
 .menu-ul{
     display: flex;
-    gap: 8px;
+    /* gap: 8px; */
     text-transform: uppercase;
 }
 
@@ -104,7 +108,7 @@ img {
     display: none;
 }
 
-@media (max-width: 600px){
+@media (max-width: 640px){
     #menu-ul{
         display: block;
         position: absolute;
@@ -170,7 +174,7 @@ img {
         display: none;
     }
     .intro {
-        gap: 10px;
+        gap: 30px;
     }
     .sobre-mimtodo{
         margin-left: 10px;
@@ -217,9 +221,12 @@ img {
 .intro {
     display: flex;
     flex-direction: column;
+    align-self: center;
     margin: 10px;
     justify-content: space-between;
-    padding: 20px;
+    padding: 50px;
+    text-align: left;
+    gap: 30px;
 }
 
 .intro h1 {
