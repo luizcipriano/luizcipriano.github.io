@@ -97,12 +97,18 @@ img {
 .menu-logo {
     font-size: 1.5rem;
     font-weight: bold;
+    transition: 1s;
 }
 
 .menu-logo img {
    width: auto ;
    height: 70px ;
 }
+
+.menu-logo:hover{
+    transform: scale(1.1);
+}
+
 
 .btn-mobile {
     display: none;
@@ -214,11 +220,12 @@ img {
     border: 1px solid transparent;
     border-radius: 38px;
     box-shadow: -1px -1px 0px #A89E00;
+    transition: border 1s;
 }
 
 .sobre-mimtodo:hover{
     border: 1px solid #A89E00;
-    box-shadow: none;
+   box-shadow: -1px -1px 0px #A89E00;
 }
 
 .intro {
