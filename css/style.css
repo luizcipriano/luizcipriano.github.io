@@ -61,7 +61,7 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   border: 2px solid transparent;
-  box-shadow: -1px -1px 0px #fff082;
+  box-shadow: -1px -1px 0 #fff082;
   border-radius: 38px;
   background: #311d8c;
   transition: ease-out 1s;
@@ -96,7 +96,7 @@ img {
   padding: 10px;
   background: #6f59d9;
   transition: border .2s ease-in-out;
-  box-shadow: -1px -1px 0px #fff082;
+  box-shadow: -1px -1px 0 #fff082;
 }
 
 .nav a:hover {
@@ -140,13 +140,13 @@ img {
     padding: 20px 16px;
     border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -1px -1px 0px #fff082;
+    box-shadow: -1px -1px 0 #fff082;
     transition: border 1s;
 }
 
 .sobre-mimtodo:hover {
     border: 1px solid #fff082;
-    box-shadow: -1px -1px 0px #fff082;
+    box-shadow: -1px -1px 0 #fff082;
 }
 
 .intro {
@@ -184,7 +184,7 @@ img {
     align-self: center;
     border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -1px -1px 0px #fff082;
+    box-shadow: -1px -1px 0 #fff082;
     padding: 20px;
     background: #6f59d9;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ img {
 .intro a:hover {
     border: 1px solid #fff082;
     transition: border ease-out 1s;
-    box-shadow: -1px -1px 0px #fff082;
+    box-shadow: -1px -1px 0 #fff082;
     transform: scale(1.2);
 }
 
@@ -210,7 +210,7 @@ img {
 .sobre-info {
     border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -1px -1px 0px #fff082;
+    box-shadow: -1px -1px 0 #fff082;
     padding: 10px;
 }
 
@@ -227,7 +227,7 @@ img {
 .sobre-info h1 {
     color: #fff082;
     text-transform: uppercase;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0 10px 10px;
 }
 
 .img-me {
@@ -267,7 +267,7 @@ img {
     flex-wrap: wrap;
     border: 3px solid transparent;
     border-radius: 38px;
-    box-shadow: -3px -3px 0px #fff082;
+    box-shadow: -3px -3px 0 #fff082;
     margin-top: 30px;
 }
 
@@ -299,12 +299,12 @@ img {
     background: #6f59d9;
     border: 1px solid transparent;
     border-radius: 38px;
-    box-shadow: -1px -1px 0px #fff082;
-    margin: 20px;
+    box-shadow: -1px -1px 0 #fff082;
+    margin: 40px 20px;
     justify-content: space-between;
-    margin-bottom: 20px;
     flex-grow: 1;
     transition: border 1s;
+    padding: 5px;
 }
 
 .divflex:hover {
@@ -316,7 +316,6 @@ img {
     display: inline-block;
     width: 40px;
     height: 40px;
-    padding: 5px;
     margin: 5px;
     border-radius: 38px;
 }
@@ -346,6 +345,7 @@ img {
     align-items: center;
     text-transform: none;
     color: #fff082;
+    line-height: initial;
 }
 
 .divflex a:hover {
