@@ -96,7 +96,6 @@ img {
   padding: 10px;
   background: #6f59d9;
   transition: border 0.2s ease-in-out;
-  box-shadow: -1px -1px 0 #fff082;
 }
 
 .nav a:hover {
@@ -320,11 +319,10 @@ img {
   background: #6f59d9;
   border: 1px solid transparent;
   border-radius: 38px;
-  box-shadow: -1px -1px 0 #fff082;
   margin: 40px 20px;
   justify-content: space-between;
   flex-grow: 1;
-  transition: border 1s;
+  transition: border .5s;
   padding: 5px;
 }
 
@@ -332,6 +330,7 @@ img {
   border: 1px solid #fff082;
   box-shadow: none;
 }
+
 
 .divflex span img {
   display: inline-block;
@@ -341,24 +340,37 @@ img {
   border-radius: 38px;
 }
 
-.git:hover {
-  border-radius: 38px;
-  background: #afb5bb;
-}
 
-.cel:hover {
+.git{
+  transition: border 1s;
+}
+.email{
+  transition: border .5s;
+}
+.link{
+  transition: border .5s;
+}
+.cel{
+  transition: border .5s;
+}
+.divflex a:hover .cel{
   border-radius: 38px;
   background: #25d366;
 }
 
-.email:hover {
+.divflex a:hover .email{
   border-radius: 38px;
   background: #c71610;
 }
-
-.link:hover {
+.divflex a:hover .link{
   border-radius: 38px;
   background: #2867b2;
+} 
+
+.divflex a:hover .git{
+  border-radius: 38px;
+  background: #afb5bb;
+
 }
 
 .divflex a {
